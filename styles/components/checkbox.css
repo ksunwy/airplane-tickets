@@ -1,0 +1,23 @@
+.checkbox {
+    width: 37px;
+    height: 37px;
+    border: 2px solid #dbddde;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.checkbox svg {
+    visibility: hidden;
+}
+
+.checkbox.checked {
+    border-color: #0099fa;
+}
+
+.checkbox.checked svg {
+    visibility: visible;
+}
